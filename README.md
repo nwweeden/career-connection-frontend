@@ -1,33 +1,26 @@
-# Career Connection - Frontend
+# Career Connetion Front End
+ - Deployed: [Career Connection](http://career-connection.demo.nickweeden.com/)
 
-## Overview
-- Application acts as a recruiting tool for users to browse available jobs by title or company. Users can login, sign up, or, if they've previously visited the site, their information is saved in local storage. Users can search by job or company and apply to relevant jobs. Each user has their own profile they can update and save. All information and actions are collected and saved on the backend (created with Heroku)
+## About the Application
 
-## Component Design
-```
-App --> {
-  Routes --> {
-    '/' --> Homepage, 
-    '/companies' --> CompanyList --> {SearchForm, {CompanyList --> CompanyCard}},
-    '/companies/:handle' --> CompanyDetail --> JobCardList, 
-    '/jobs' --> JobList --> {SearchForm, {JobCardList --> JobCard}},
-    '/login' --> LoginForm,
-    '/signup' --> SignupForm,
-    '/profile' --> ProfileForm,
-  },
-  Navigation}
-```
+This is the front end of a job board application. With the back end, their are a variety of features:
+
+ - Users can login or sign up and their information is saved via authentication
+ - Users can search for specific companies or jobs
+ - Users can apply to certain jobs - no request built in, but this action is maintained between sessions
+ - Users can update their information
+ - All information and actions are collected and saved on the back end (created with Heroku)
 
 ## State
 - State is most used to store information on the current user of the application - primarily managed through context
 
-## Tools and Resources
-- react
-- react-dom
-- react-router-dom
-- react-scripts
-- json web token
-- axios and career-connection-backend
-- jest-dom
-- bootstrap
+## Getting Started
+1. Clone the repository
+2. `cd film-finder-frontend`
+3. `npm install` to install dependencies
+4. `npm start` to launch the application
+
+This repository is a Create-React-App for the front end. Clone with the back end to have a fully function app.
+
+Have Fun!
 
