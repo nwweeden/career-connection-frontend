@@ -3,7 +3,7 @@
 
 ## About the Application
 
-This is the front end of a job board application. With the back end, their are a variety of features:
+This is the front end of a job board application. With the back end, there are a variety of features:
 
  - Users can login or sign up and their information is saved via authentication
  - Users can search for specific companies or jobs
@@ -12,7 +12,7 @@ This is the front end of a job board application. With the back end, their are a
  - All information and actions are collected and saved on the back end (created with Heroku)
 
 ## State
-- State is most used to store information on the current user of the application - primarily managed through context
+- State is mostly used to store information on the current user of the application - primarily managed through context
 
 ## Getting Started
 1. Clone the repository
@@ -20,7 +20,7 @@ This is the front end of a job board application. With the back end, their are a
 3. `npm install` to install dependencies
 4. `npm start` to launch the application
 
-This repository is a Create-React-App for the front end. Clone with the back end to have a fully function app.
+This repository is a Create-React-App for the front end. Clone with the back end to have a fully functioning app.
 
 Have Fun!
 
