@@ -19,6 +19,7 @@ This is the front end of a job board application. With the back end, there are a
 2. `cd film-finder-frontend`
 3. `npm install` to install dependencies
 4. `npm start` to launch the application
+5. `npm test` to run tests
 
 This repository is a Create-React-App for the front end. Clone with the back end to have a fully functioning app.
 
